@@ -1,5 +1,7 @@
 version: '3.4'
 
+
+
 services:
   band.api:
     image: ${DOCKER_REGISTRY-}band
