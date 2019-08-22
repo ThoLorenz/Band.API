@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  band.api:
+    image: ${DOCKER_REGISTRY-}band
+    build:
+      context: .
+      dockerfile: Band.API/Dockerfile
